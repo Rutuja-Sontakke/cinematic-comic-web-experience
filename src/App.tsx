@@ -6,12 +6,6 @@ import {
   type ReactNode,
 } from "react";
 
-import {
-  Github,
-  Linkedin,
-  Instagram,
-} from "lucide-react";
-
 const gwenPortrait = new URL("./imports/gwen.jpg", import.meta.url).href;
 const gwenSwing = new URL("./imports/gwenSwing.jpg", import.meta.url).href;
 const gwenAction = new URL("./imports/gwen1.jpg", import.meta.url).href;
@@ -1615,33 +1609,39 @@ function FinaleScene() {
 
         <Reveal className="d4">
           <div className="social-row">
-            <a
-              className="social-pill"
-              href="https://github.com/Rutuja-Sontakke"
-              data-cursor="view"
-              aria-label="GitHub"
-            >
-              GH
-            </a>
+  <a
+    className="social-pill"
+    href="https://github.com/Rutuja-Sontakke"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-cursor="view"
+    aria-label="GitHub"
+  >
+    <i className="fa-brands fa-github" />
+  </a>
 
-            <a
-              className="social-pill"
-              href="https://www.linkedin.com/in/rutujas04"
-              data-cursor="view"
-              aria-label="LinkedIn"
-            >
-              IN
-            </a>
+  <a
+    className="social-pill"
+    href="https://www.linkedin.com/in/rutujas04"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-cursor="view"
+    aria-label="LinkedIn"
+  >
+    <i className="fa-brands fa-linkedin-in" />
+  </a>
 
-            <a
-              className="social-pill"
-              href="https://www.instagram.com/ind_spiderstree.dev?igsh=eGs4NTVxcHk5bDJw&igsi=eGs4NTVxcHk5bDJw"
-              data-cursor="view"
-              aria-label="Instagram"
-            >
-              <i className="fa-brands fa-instagram"></i>
-            </a>
-          </div>
+  <a
+    className="social-pill"
+    href="https://www.instagram.com/ind_spiderstree.dev"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-cursor="view"
+    aria-label="Instagram"
+  >
+    <i className="fa-brands fa-instagram" />
+  </a>
+</div>
 
           <p className="footer-print">
             © 2026 GWEN STACY — EARTH-65

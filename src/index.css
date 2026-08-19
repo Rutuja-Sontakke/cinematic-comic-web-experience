@@ -4436,6 +4436,8 @@ img {
     color 0.3s ease,
     transform 0.3s ease,
     background 0.3s ease;
+    font-size: 16px;
+    line-height: 1;
 }
 
 .social-pill:hover {
@@ -4455,6 +4457,8 @@ img {
 
   transform:
     translateY(-3px);
+
+    transform: scale(1.12);
 }
 
 .footer-print {
@@ -5028,3 +5032,5 @@ body,
     z-index: 7;
   }
 }
+
+
