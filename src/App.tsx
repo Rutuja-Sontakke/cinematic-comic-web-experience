@@ -6,6 +6,12 @@ import {
   type ReactNode,
 } from "react";
 
+import {
+  Github,
+  Linkedin,
+  Instagram,
+} from "lucide-react";
+
 const gwenPortrait = new URL("./imports/gwen.jpg", import.meta.url).href;
 const gwenSwing = new URL("./imports/gwenSwing.jpg", import.meta.url).href;
 const gwenAction = new URL("./imports/gwen1.jpg", import.meta.url).href;
@@ -1611,7 +1617,7 @@ function FinaleScene() {
           <div className="social-row">
             <a
               className="social-pill"
-              href="#"
+              href="https://github.com/Rutuja-Sontakke"
               data-cursor="view"
               aria-label="GitHub"
             >
@@ -1620,7 +1626,7 @@ function FinaleScene() {
 
             <a
               className="social-pill"
-              href="#"
+              href="https://www.linkedin.com/in/rutujas04"
               data-cursor="view"
               aria-label="LinkedIn"
             >
@@ -1629,19 +1635,18 @@ function FinaleScene() {
 
             <a
               className="social-pill"
-              href="#"
+              href="https://www.instagram.com/ind_spiderstree.dev?igsh=eGs4NTVxcHk5bDJw&igsi=eGs4NTVxcHk5bDJw"
               data-cursor="view"
-              aria-label="Twitter"
+              aria-label="Instagram"
             >
-              X
+              <i className="fa-brands fa-instagram"></i>
             </a>
           </div>
 
           <p className="footer-print">
             © 2026 GWEN STACY — EARTH-65
             <br />
-            ALL PANELS DRAWN BY HAND
-            (AND REACT)
+            ALL RIGHT RESERVE BY RUTUJA SONTAKKE
           </p>
         </Reveal>
       </div>
