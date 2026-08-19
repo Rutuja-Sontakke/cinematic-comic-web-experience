@@ -1599,7 +1599,7 @@ function FinaleScene() {
         <Reveal className="d3">
           <a
             ref={buttonRef}
-            href="mailto:hello@gwenstacy.dev"
+            href="mailto:rutujasontakke50@gmail.com"
             className="btn-comic"
             data-cursor="view"
           >
